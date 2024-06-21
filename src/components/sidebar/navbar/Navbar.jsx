@@ -15,7 +15,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='listitem'>
-            <a href='/' className='menulink grid'>
+            <a href='/projects' className='menulink grid'>
               <div className='menuicon'>
                 <i class='fi fi-rr-blueprint'></i>
                 <span className='smallText'>Projects</span>

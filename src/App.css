@@ -69,7 +69,7 @@ img {
   cursor: pointer;
   border-radius: 30px;
   box-shadow: 0 2px 4px var(--quaternaryColor);
-  padding: 0.8rem 3.5rem;
+  padding: 0.8rem 1.75rem;
   color: var(--whiteColor);
   background: var(--primaryColor);
   font-size: var(--normalFontSize);
