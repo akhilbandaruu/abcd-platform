@@ -49,7 +49,7 @@ function Login() {
         <ul className='formlinks'>
           <li>
             <a href='/' className='orange-link'>
-              Create Account
+              Create Accounts
             </a>
           </li>
           <li>
