@@ -1,15 +1,7 @@
 .mainContent {
-  width: 88%;
-  height: 100%;
   overflow: auto;
-  background: var(--backgroundColor);
-  padding: 0.5rem;
 }
 .contentContainer {
-  background: var(--quaternaryColor);
-  height: 100%;
-  border-radius: 15px;
-  border: 1px solid var(--borderColor);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

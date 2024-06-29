@@ -1,33 +1,20 @@
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
-import Body from './components/body/Body';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Login from './components/login/Login';
 import './Media-queries.css';
-import Register from './components/register/Register';
-import Projects from './components/projects/Projects';
+import Topbar from './components/body/topbar/Topbar';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
-      <div className='main-container'>
-        <Routes>
-          <Route path='/login' element={<Login />} />
-          <Route
-            path='/'
-            element={
-              <>
-                <Sidebar />
-                <Body />
-              </>
-            }
-          />
-          <Route path='/register' element={<Register />} />
-          <Route path='/projects' element={<Projects />} />
-          {/* Add other routes here */}
-        </Routes>
+    <div className='main-container'>
+      <Sidebar />
+      <div className='main-content'>
+        <div className='content-container'>
+          <Topbar />
+          <Outlet />
+        </div>
       </div>
-    </Router>
+    </div>
   );
 }
 

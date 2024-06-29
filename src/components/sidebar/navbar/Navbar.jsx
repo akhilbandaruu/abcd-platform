@@ -23,7 +23,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='listitem'>
-            <a href='/' className='menulink grid'>
+            <a href='/files' className='menulink grid'>
               <div className='menuicon'>
                 <i class='fi fi-rr-folder-tree'></i>
                 <span className='smallText'>Files</span>
@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='listitem'>
-            <a href='/' className='menulink grid'>
+            <a href='/messages' className='menulink grid'>
               <div className='menuicon'>
                 <i class='fi fi-rr-messages'></i>
                 <span className='smallText'>Messages</span>
@@ -40,7 +40,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='listitem'>
-            <a href='/' className='menulink grid'>
+            <a href='/payments' className='menulink grid'>
               <div className='menuicon'>
                 <i class='fi fi-rr-payroll-check'></i>
                 <span className='smallText'>Payments</span>
@@ -48,7 +48,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className='listitem'>
-            <a href='/' className='menulink grid'>
+            <a href='/reports' className='menulink grid'>
               <div className='menuicon'>
                 <i class='fi fi-rr-newspaper'></i>
                 <span className='smallText'>Reports</span>

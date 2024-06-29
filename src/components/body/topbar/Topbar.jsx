@@ -18,7 +18,7 @@ const Topbar = () => {
           <ul className='usersettings'>
             <li className='usersettings-items'>
               <div className='user-list-item'>
-                <a href='/'>
+                <a href='/settings'>
                   <i class='fi fi-rr-settings'></i>
                 </a>
               </div>
@@ -33,7 +33,7 @@ const Topbar = () => {
                 </a>
               </div>
               <div className='user-list-item'>
-                <a href='/'>
+                <a href='/user-profile'>
                   <i class='fi fi-sr-user user-photo'></i>
                 </a>
               </div>

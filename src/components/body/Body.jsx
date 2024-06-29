@@ -1,16 +1,13 @@
 import React from 'react';
 import './Body.css';
-import Topbar from './topbar/Topbar';
 import Projectstab from './project-tabs/Project-tabs';
 import Listoftasks from './list-of-tasks/List-of-tasks';
 import Metrics from './metrics/Metrics';
-import Sidebar from '../sidebar/Sidebar';
 
 const Body = () => {
   return (
     <div className='mainContent'>
       <div className='contentContainer'>
-        <Topbar />
         <div className='overview-info'>
           <div className='overview-text'>
             <h1>Overview</h1>

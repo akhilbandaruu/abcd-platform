@@ -1,8 +1,7 @@
 import React from 'react';
-import '../projects/Projects';
 
 const Projects = () => {
-  return <div>Projects</div>;
+  return <div className='projects-container'></div>;
 };
 
 export default Projects;
