@@ -1,7 +1,7 @@
 import './App.css';
 import Sidebar from './components/sidebar/Sidebar';
 import './Media-queries.css';
-import Topbar from './components/body/topbar/Topbar';
+import Topbar from './components/body/Topbar';
 import { Outlet } from 'react-router-dom';
 
 function App() {

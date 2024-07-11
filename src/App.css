@@ -13,6 +13,8 @@
 
 :root {
   --primaryColor: #ed7d31;
+  --inProgressColor: #1976d2;
+  --newTicketColor: #ed7d31;
   --secondaryColor: #1d2232;
   --tertiaryColor: #6f7178;
   --quaternaryColor: #fcfcf9;
@@ -160,10 +162,13 @@ hr {
   justify-content: flex-start;
   gap: 35px;
   height: 100%;
+  overflow: scroll;
 }
 
 .main-content {
   width: 88%;
   height: 100%;
   padding: 0.5rem;
+  flex-grow: 1;
+  transition: 0.3s ease;
 }

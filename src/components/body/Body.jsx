@@ -1,8 +1,8 @@
 import React from 'react';
-import './Body.css';
-import Projectstab from './project-tabs/Project-tabs';
-import Listoftasks from './list-of-tasks/List-of-tasks';
-import Metrics from './metrics/Metrics';
+import '../styles/Body.css';
+import Projectstab from './Project-tabs';
+import Listoftasks from './List-of-tasks';
+import Metrics from './Metrics';
 
 const Body = () => {
   return (
@@ -18,7 +18,7 @@ const Body = () => {
           </div>
         </div>
         <Metrics />
-        <div class='grid-container'>
+        <div class='projectgrid-container'>
           <div class='grid-item item-1'>
             <Projectstab />
           </div>

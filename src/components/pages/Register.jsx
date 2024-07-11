@@ -1,6 +1,6 @@
 // src/Login.js
 import React, { useState } from 'react';
-import './Register.css';
+import '../styles/Register.css';
 import logo from '../../assets/logos/badge-abcd-logo.svg';
 import SocialCommunities from '../sidebar/social-communities/Social-communities';
 
