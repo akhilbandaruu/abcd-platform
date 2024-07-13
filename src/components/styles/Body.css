@@ -74,6 +74,11 @@
   background-color: var(--whiteColor) !important;
 }
 
+.MuiDataGrid-main {
+  font-size: var(--normalFontSize) !important;
+  color: var(--textColor) !important;
+}
+
 .action-icons {
   display: flex;
   gap: 10px;
@@ -90,6 +95,7 @@
 
 .MuiDataGrid-cell {
   align-content: center;
+  --height: 48px;
 }
 .MuiTablePagination-selectLabel {
   color: var(--textColor) !important;

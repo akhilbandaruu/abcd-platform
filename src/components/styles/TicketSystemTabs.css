@@ -44,6 +44,7 @@
 }
 .MuiChip-root {
   width: 100%;
+  background-color: var(--primaryColor) !important;
 }
 .MuiDataGrid-root {
   border: none !important;
