@@ -135,6 +135,7 @@ input {
   border: 1px solid var(--borderColor);
   border-radius: 8px;
   font-size: var(--normalFontSize);
+  width: 100%;
 }
 
 h1,
