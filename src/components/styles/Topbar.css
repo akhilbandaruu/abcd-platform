@@ -71,3 +71,6 @@
 .usersettings-items {
   align-items: center;
 }
+.logout{
+  cursor: pointer;
+}
