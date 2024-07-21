@@ -12,6 +12,7 @@ import Reports from './components/pages/Reports';
 import TicketSystem from './components/pages/TicketSystem';
 import Settings from './components/pages/Settings';
 import Profile from './components/pages/Profile';
+import CreateTicket from './components/pages/CreateTicket';
 
 const router = createBrowserRouter([
   {
@@ -53,6 +54,10 @@ const router = createBrowserRouter([
       {
         path: '/user-profile',
         element: <Profile />,
+      },
+      {
+        path: '/create-ticket',
+        element: <CreateTicket />,
       },
     ],
   },
