@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -16,6 +17,23 @@ import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
 import PrivateRoute from "./components/body/private-route";
 import { GoogleOAuthProvider } from "@react-oauth/google";
+=======
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App';
+import Body from './components/body/Body';
+import Projects from './components/pages/Projects';
+import Files from './components/pages/Files';
+import Messages from './components/pages/Messages';
+import Payments from './components/pages/Payments';
+import Reports from './components/pages/Reports';
+import TicketSystem from './components/pages/TicketSystem';
+import Settings from './components/pages/Settings';
+import Profile from './components/pages/Profile';
+import CreateTicket from './components/pages/CreateTicket';
+>>>>>>> 26c4733fe0faf3fa4dd3742877b6103658004d7d
 
 const router = createBrowserRouter([
   {
@@ -57,6 +75,10 @@ const router = createBrowserRouter([
       {
         path: "/user-profile",
         element: <Profile />,
+      },
+      {
+        path: '/create-ticket',
+        element: <CreateTicket />,
       },
     ],
   },
