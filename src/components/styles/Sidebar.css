@@ -83,6 +83,7 @@
   color: var(--tertiaryColor);
   opacity: 0.3;
   border: 1px solid var(--backgroundColor);
+  cursor: pointer;
 }
 
 .socialiconlink:hover {

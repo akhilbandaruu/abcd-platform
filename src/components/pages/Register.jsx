@@ -143,7 +143,33 @@ function Register() {
               </li>
             </ul>
           </div>
-          {/* <SocialCommunities /> */}
+          <div className="socialicons-container flex">
+            <ul className={`socialicons flex `}>
+              <li className={`socialiconitem `}>
+                <div>
+                  <a
+                    href="https://www.facebook.com"
+                    className="socialiconlink flex">
+                    <i className="fi fi-brands-facebook"></i>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com"
+                    className="socialiconlink flex">
+                    <i className="fi fi-brands-linkedin"></i>
+                  </a>
+                </div>
+                <div>
+                  <a
+                    href="https://www.github.com"
+                    className="socialiconlink flex">
+                    <i className="fi fi-brands-github"></i>
+                  </a>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

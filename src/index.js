@@ -15,6 +15,7 @@ import Profile from "./components/pages/Profile";
 import Login from "./components/pages/Login";
 import Register from "./components/pages/Register";
 import PrivateRoute from "./components/body/private-route";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 
 const router = createBrowserRouter([
   {
@@ -71,7 +72,9 @@ const router = createBrowserRouter([
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    <RouterProvider router={router} />
-  </React.StrictMode>
+  <GoogleOAuthProvider clientId="980827678614-0ed2bgu6laf10l262cs9a8eoe074di87.apps.googleusercontent.com">
+    <React.StrictMode>
+      <RouterProvider router={router} />
+    </React.StrictMode>
+  </GoogleOAuthProvider>
 );
